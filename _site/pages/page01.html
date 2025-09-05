@@ -1,0 +1,223 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>xxx Page 01 xxx - Terry’s Sample Website 5</title>
+<meta name="description" content="This is the first page of my demo website.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Terry&#39;s Sample Website 5">
+<meta property="og:title" content="xxx Page 01 xxx">
+<meta property="og:url" content="http://localhost:4000/SampleWebsite5/pages/page01.html">
+
+
+  <meta property="og:description" content="This is the first page of my demo website.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/SampleWebsite5/pages/page01.html">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/SampleWebsite5/feed.xml" type="application/atom+xml" rel="alternate" title="Terry's Sample Website 5 Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/SampleWebsite5/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/SampleWebsite5/">
+          Terry&#39;s Sample Website 5
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/SampleWebsite5/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/SampleWebsite5/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/SampleWebsite5/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/SampleWebsite5/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <!-- 
+Note in the following, I use the /SampleWebsite5 variable to ensure that the path is correct when accessing resources in the Resources folder, regardless of where the markdown file is located in the directory structure. This is particularly useful when the markdown file is in a subdirectory, as it allows the correct path to be constructed without needing to manually adjust the relative path each time the file is moved or copied to a different location.
+-->
+
+<h4 id="this-is-an-image-from-resources">This is an image from Resources:</h4>
+<p><img src="/SampleWebsite5/Resources/green_folder.png" alt="green_folder" /></p>
+
+<h4 id="two-images-from-resources-on-same-line">Two images from Resources on same line:</h4>
+<p><img src="/SampleWebsite5/Resources/green_folder.png" alt="green _folder" /> <img src="/SampleWebsite5/Resources/blue_folder.png" alt="blue_folder" /></p>
+
+<h4 id="this-uses-an-image-to-link-back-to-the-home-page">This uses an image to link back to the home page:</h4>
+<!-- 
+Note in the following, if I use index.md, VSCode previews correctly but the 
+browser displays the markdown file as plain text. If I use index.html, the browser
+renders the page correctly, but the link is broken in VSCode. 
+Use this technique to create a clickable image link back to the home page.
+-->
+
+<p><a href="/SampleWebsite5/index.html"><img src="/SampleWebsite5/yellow_folder.png" alt="yellow_folder" /></a></p>
+
+<h4 id="fix-the-dimensions-of-the-green-image-using-attribute-list">Fix the dimensions of the green image using attribute list:</h4>
+<p><img src="/SampleWebsite5/Resources/green_folder.png" alt="green_folder" height="150px" width="150px" /></p>
+
+<h4 id="this-creates-a-long-block-of-text-that-will-wrap-in-the-browser">This creates a long block of text that will wrap in the browser.</h4>
+<!-- 
+Note in the following, I am attempting to break a long line of text into multiple lines in my editor for readability. The first two lines I copied and pasted from a reference. The third line I typed manually. I used the fn-return keystroke to create a new line in my editor.
+
+-->
+
+<p>This very long line of text will be broken into multiple lines in my editor for readability.
+This is the second line in my editor, but the rendered output will ignore the line break.
+And this is the third line, created after typing fn-return</p>
+
+<h4 id="this-demonstrates-how-to-style-text-in-this-case-adding-color">This demonstrates how to style text, in this case, adding color</h4>
+
+<p><span style="color: purple;">Here is another line of text that I would like to appear as purple </span>&gt;</p>
+
+<p><span style="color: #FF0000;">Here is a line of text that should appear in red font </span>&gt;</p>
+
+<h4 id="return-to-opening-page-home">Return to opening page (home):</h4>
+<!-- 
+Note use of index.html rather than index.md 
+-->
+<p><a href="/SampleWebsite5/index.html">home</a></p>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/SampleWebsite5/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Terry&#39;s Sample Website 5</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/SampleWebsite5/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
