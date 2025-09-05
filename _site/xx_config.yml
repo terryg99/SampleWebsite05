@@ -1,0 +1,20 @@
+# _config.yml
+
+# Site settings
+title: Terry's Sample Website 5
+description: This demonstrates some of the basics for using Jekyll with the (default) minima theme
+# theme: minima
+# theme: jekyll-theme-cayman
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+plugins:
+  - jekyll-include-cache
+
+# description: Objective: Demonstrate how to use GitHub Pages
+url: "https://terryg99.github.io" # Update with your GitHub Pages URL
+baseurl: "/SampleWebsite5" # Should be empty for GitHub Pages, or the name of subfolder if the site is served in a subfolder
+
+# GitHub Pages settings
+# repository: terryg99/SampleWebsite # Update with your GitHub repository
+# branch: main # Update with your repository's main branch
+

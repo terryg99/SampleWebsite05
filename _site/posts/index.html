@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Home Page - MM</title>
-<meta name="description" content="This is the home page of my demo website.">
+<!-- begin _includes/seo.html --><title>Posts by Year - MM</title>
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
 
 
   <meta name="author" content="First Lastname">
@@ -21,14 +21,11 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="MM">
-<meta property="og:title" content="Home Page">
-<meta property="og:url" content="http://localhost:4000/SampleWebsite05/">
+<meta property="og:title" content="Posts by Year">
+<meta property="og:url" content="http://localhost:4000/SampleWebsite05/posts/">
 
 
-  <meta property="og:description" content="This is the home page of my demo website.">
-
-
-
+  <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
 
 
 
@@ -38,20 +35,13 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/SampleWebsite05/">
 
 
 
+<link rel="canonical" href="http://localhost:4000/SampleWebsite05/posts/">
 
 
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": null,
-    "url": "http://localhost:4000/SampleWebsite05/"
-}
-</script>
+
 
 
 
@@ -88,7 +78,7 @@
 
   </head>
 
-  <body class="layout--home" dir="ltr">
+  <body class="layout--posts" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -157,44 +147,159 @@
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/SampleWebsite05/">
+        <img src="/SampleWebsite05/assets/images/bio-photo.jpg" alt="First Lastname" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/SampleWebsite05/" itemprop="url">First Lastname</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>My awesome biography constrained to a sentence or two goes here.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
 
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Home Page</h1>
+      <h1 id="page-title" class="page__title">Posts by Year</h1>
     
-    <h3 id="my-first-demo-website">My “first” demo website</h3>
-<p>This is a simple website that demonstrates the workflow
-to create/edit markdown files using VSCode, push them to a 
-GitHub repository, build and deploy a collection of HTML files 
-using GitHub Pages, and view the result in Safari.</p>
-
-<p>By “first”, I am referring to efforts in 2025. I did some similar work a few years 
-ago, but it is completely forgotten.</p>
-
-<h4 id="here-is-an-image-of-the-yellow-folder-icon-located-in-the-projects-root-directory">Here is an image of the yellow folder icon, located in the project’s root directory:</h4>
-<p><img src="/SampleWebsite05/yellow_folder.png" alt="yellow_folder" /></p>
-<h4 id="here-is-an-image-of-the-blue-folder-icon-located-in-the-projects-resources-folder">Here is an image of the blue folder icon, located in the project’s Resources folder:</h4>
-<p><img src="/SampleWebsite05/Resources/blue_folder.png" alt="blue_folder" /></p>
-<h4 id="heres-a-link-to-page-1">Here’s a link to page 1:</h4>
-<p><a href="/SampleWebsite05/pages/page01/">Page01</a></p>
-<h4 id="heres-a-link-to-page-2">Here’s a link to page 2:</h4>
-<p><a href="/SampleWebsite05/pages/page02/">Page02</a></p>
-<h4 id="heres-a-link-to-page-3">Here’s a link to page 3:</h4>
-<p><a href="/SampleWebsite05/pages/page03/">Page03</a></p>
+    
 
 
-<h3 class="archive__subtitle">Recent Posts</h3>
-
-
-
-
-<div class="entries-list">
+<ul class="taxonomy__index">
   
+  
+    <li>
+      <a href="#2025">
+        <strong>2025</strong> <span class="taxonomy__count">4</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2019">
+        <strong>2019</strong> <span class="taxonomy__count">1</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2010">
+        <strong>2010</strong> <span class="taxonomy__count">6</span>
+      </a>
+    </li>
+  
+</ul>
 
 
 
 
+  <section id="2025" class="taxonomy__section">
+    <h2 class="archive__subtitle">2025</h2>
+    <div class="entries-list">
+      
+        
 
 
 
@@ -233,6 +338,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -271,6 +378,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -309,6 +418,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -348,6 +459,16 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
+
+  <section id="2019" class="taxonomy__section">
+    <h2 class="archive__subtitle">2019</h2>
+    <div class="entries-list">
+      
+        
 
 
 
@@ -385,6 +506,16 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
+
+  <section id="2010" class="taxonomy__section">
+    <h2 class="archive__subtitle">2010</h2>
+    <div class="entries-list">
+      
+        
 
 
 
@@ -424,6 +555,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -468,6 +601,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -507,6 +642,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -546,6 +683,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -583,6 +722,8 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
+      
+        
 
 
 
@@ -622,9 +763,10 @@ ago, but it is completely forgotten.</p>
   </article>
 </div>
 
-</div>
-
-
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
 
 
   </div>
