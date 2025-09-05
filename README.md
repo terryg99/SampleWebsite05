@@ -1,7 +1,5 @@
-### SampleWebsite4
+### SampleWebsite5
 
-This demonstrates how to create a simple website using Jekyll and the (default) minima theme.
+This builds upon the sampleWebsite4 by adopting the minimal-mistakes theme. This is a powerful theme for Jekyll that allows for a lot of customization and flexibility in creating a personal or professional website.
 
-Several pages are composed in markdown which display images, modify the image size and use an image as a link to another page.
-
-Codefence is demonstrated in Page 02.
+It's easy to generate some posts in markdown, add tags and categories in the front matter, and have them automatically organized and displayed on the site.
