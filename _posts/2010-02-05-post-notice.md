@@ -1,7 +1,7 @@
 ---
 title: "Post: Notice"
 categories:
-  - Blog
+  - mm_blog
 tags:
   - mm-sample
 ---

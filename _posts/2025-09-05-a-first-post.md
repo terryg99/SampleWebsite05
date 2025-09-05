@@ -2,7 +2,7 @@
 title: "This is my first post"
 date: 2025-09-05
 categories:
-  - blog
+  - TRG_blog
 tags:
   - Jekyll
   - mm-test

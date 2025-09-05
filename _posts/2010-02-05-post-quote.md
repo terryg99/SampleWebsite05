@@ -1,7 +1,7 @@
 ---
 title: "Post: Quote"
 categories:
-  - Blog
+  - mm_blog
 tags:
   - mm-sample
 ---
