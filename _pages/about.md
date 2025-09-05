@@ -1,8 +1,10 @@
 ---
 permalink: /about/
-title: "About"
+title: "About me (yawn)"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I grew up in northwestern Ohio and went to Purdue University, obtiaining BSCE and MSCE degrees in Structural Engineering. After graduating, I moved to Houston and joined Exxon's upstream research organization, initially working in their Platform Design section. My first international assignment was in Oslo, Norway where I participated on the Snorre Project.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+During my career with Exxon I also had assignemnts in Stavanger (Norway), Kuala Lumpur (Malaysia), and Doha (Qatar) and spent a lot of time in Jakarta (Indonesia) and Australia. Between foreign assignments which totalled 15 years, I worked in Houston in a number of positions, mostly related to upstream development projects.
+
+I bought my first personal computer in 1981, an Apple II+. My entire career I used what eventually became Windows-based PCs. After retiring I bought an iMac, my first Apple computer in over 30 years. My current desktop is a 2023 Mac Studio.
