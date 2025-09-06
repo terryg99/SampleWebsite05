@@ -41,6 +41,12 @@ var store = [{
         "url": "/SampleWebsite5/mm_blog/welcome-to-jekyll/",
         "teaser": null
       },{
+        "title": "Some early thoughts on AI",
+        "excerpt":"Some early thoughts on AI I have been slow to embrace AI technology … I couldn’t imagine that it could live up to the hype it has been getting. I was wrong. It’s pretty amazing! My interest picked up when I learned that AI-based code assistance was being added to...","categories": ["TRG_blog"],
+        "tags": ["AI","vibe_coding"],
+        "url": "/SampleWebsite5/trg_blog/a-Early-thoughts-on-AI/",
+        "teaser": null
+      },{
         "title": "This is my first post",
         "excerpt":"This is my first new post     ","categories": ["TRG_blog"],
         "tags": ["Jekyll","mm-test"],
